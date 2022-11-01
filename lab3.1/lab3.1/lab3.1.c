@@ -53,8 +53,11 @@ int main()
 
 	int t = 0;
 	float positive = 1;
+	float summ=0;
+	float less;
+	float final;
 
-	for (; t != 10;)
+	for(; t != 10;)
 	{
 		if (arr[t]>0) 
 		{
@@ -63,5 +66,31 @@ int main()
 		t++;
 	} 
 
-	printf_s("%.2f\n", positive);
+	for (t = 0; t < n;)
+	{
+		summ += arr[t];
+		t++;
+	}
+
+	for (t = 0; t < n - 1;)
+	{
+		if (arr[t] < arr[t + 1])
+		{
+			arr[t + 1] = arr[t];
+		}
+		else
+		{
+			arr[t] = arr[t + 1];
+		}
+		less = arr[t];
+		t++;
+	}
+
+	final = summ - less;
+
+	printf_s("multiplication: ");
+	printf_s("%.2f", positive); 
+
+	printf_s("\nsum: ");
+	printf_s("%.2f", final);
 }
