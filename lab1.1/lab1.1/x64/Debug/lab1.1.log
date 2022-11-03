@@ -1,5 +1,0 @@
-﻿  lab1.1.cpp
-C:\Users\Xiaomi\source\repos\lab1.1\lab1.1\lab1.1.cpp(14,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Xiaomi\source\repos\lab1.1\lab1.1\lab1.1.cpp(15,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Xiaomi\source\repos\lab1.1\lab1.1\lab1.1.cpp(16,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  lab1.1.vcxproj -> C:\Users\Xiaomi\source\repos\lab1.1\x64\Debug\lab1.1.exe
